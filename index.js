@@ -123,7 +123,13 @@
 // }while(num<=10);
 
 // For Loop 
-for(var num=0; num<=10; num++){
-    console.log(num);
+// for(var num=0; num<=10; num++){
+//     console.log(num);
+// }
+
+// Challenge
+var table = 9;
+for(var mul =1;mul<=10; mul++){
+    console.log(table+" * "+mul+" = "+ table*mul);
 }
 
