@@ -128,8 +128,150 @@
 // }
 
 // Challenge
-var table = 9;
-for(var mul =1;mul<=10; mul++){
-    console.log(table+" * "+mul+" = "+ table*mul);
-}
+// var table = 9;
+// for(var mul =1;mul<=10; mul++){
+//     console.log(table+" * "+mul+" = "+ table*mul);
+// }
+
+// function sum(){
+//     var a =10, b=20;
+//     var total= a+b;
+//     console.log("total="+total);
+// }
+
+// sum()
+
+
+// ECMA Script 
+// LET vs CONST vs VAR 
+
+// var myName = "Hassan";
+// console.log(myName);
+
+// myName = 'Mughal';
+// console.log(myName);
+
+// let myName = "Hassan";
+// console.log(myName);
+
+// myName = 'Mughal';
+// console.log(myName);
+
+// const myName = "Hassan";
+// console.log(myName);
+
+// myName = 'Mughal';
+// console.log(myName);
+
+// Template Literals
+// for(let num=1; num<=10; num++){
+//     let tableOf = 12;
+//     console.log(`${tableOf} * ${num} = ${tableOf*num}`);
+// }
+
+
+//  Default Parameters
+
+// array function
+
+// Array in JS
+// var myFriends = ['Hassan', 'Ahmed', 'Usama', true, 52];
+// console.log(myFriends[1]);
+
+
+// Array Length
+// console.log(myFriends.length);
+
+// var myFriends = ['Hassan', 'Ahmed', 'Usama'];
+// for loop
+// for(var i=0; i<myFriends.length; i++){
+//     console.log(myFriends[i]);
+// }
+
+// for in loop
+// for(let elements in myFriends){
+//     console.log(myFriends[elements]);
+// }
+
+// for of loop
+// for(let elements of myFriends){
+//     console.log(elements);
+// }
+
+// myFriends.forEach(function(elements, index, array){
+//     console.log(elements);
+// });
+
+// var myFriends = ['Hassan', 'Ahmed', 'Usama'];
+// console.log(myFriends.indexOf("Hassan"));
+
+// const prices = [200, 300, 350, 400, 450, 500, 600];
+// const findElem = prices.find((currVal) => {
+//     return currVal > 400;
+// });
+
+// console.log(findElem);
+
+// const prices = [200, 300, 350, 400, 450, 500, 600];
+
+// const newPriceTag = prices.filter((elem, index) => {
+//     return elem < 400;
+// });
+// console.log(newPriceTag);
+
+
+// const months = ['March', 'Jan', ' Feb', 'Dec', 'Nov'];
+// console.log(months.sort());
+
+// const animals = ['pigs', 'goats', 'sheep'];
+// animals.push('chicken');
+// console.log(animals);
+
+// const animals = ['pigs', 'goats', 'sheep'];
+// animals.unshift('chicken');
+// console.log(animals);
+
+//  const plants = ['brocoli', 'cauliflower', 'kale', 'tomato', 'cabbage'];
+//  console.log(plants);
+//  console.log(plants.pop());
+//  console.log(plants);
+
+// console.log(plants);
+// console.log(plants.shift());
+// console.log(plants);
+
+
+// Challenge 
+// const months = ['Jan', 'march', 'April', 'June', 'July'];
+
+// Add december to end
+// const newMonth = months.splice(months.length,0,"Dec")
+// console.log(months);
+
+// return value of splice method
+// const newMonth = months.splice(months.length,0,"Dec")
+// console.log(newMonth); // return empty array cuz it takes deleted elements
+
+
+// update march to March
+// const indexOfMonth = months.indexOf('march');
+// if(indexOfMonth !== -1){
+//     const updateMonth = months.splice(indexOfMonth,1,'March')
+// }
+// else{
+//     console.log('No such data found');
+// }
+
+// console.log(months);
+
+// delete the june
+// const indexOfMonth = months.indexOf('June');
+// if(indexOfMonth !== -1){
+//     const updateMonth = months.splice(indexOfMonth,1)
+// }
+// else{
+//     console.log('No such data found');
+// }
+// console.log(months);
+
 
