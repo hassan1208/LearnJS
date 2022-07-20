@@ -274,4 +274,37 @@
 // }
 // console.log(months);
 
+// const array1 = [1,4,9,16,25];
+// let newArr = array1.map((currElem, index, arr) => {
+//     return currElem > 9;
+// })
+// console.log(array1);
+// console.log(newArr);
 
+// let arr = [16, 25, 36, 49, 64];
+// let arrSqr = arr.map(
+//     (curElem) =>  Math.sqrt(curElem)
+// )
+// console.log(arrSqr);
+
+// let arr = [2,3,4,5,6];
+// let arr2 = arr.map((curElem) => {
+//     return curElem *2;
+// }).filter((curElem) => {
+//     return curElem > 10;
+// })
+
+// console.log(arr2);
+
+// Strings in JS
+// let myName = "Hassan Shabbir";
+// console.log(myName.length);
+
+// occurrence of a specified text in a string
+// const myBioData = "I am Hassan Shabbir";
+// console.log(myBioData.indexOf("Hassan"));
+
+// Slice
+var str = "Apple, Bananaa, Kiwi";
+let res = str.slice(0,4);
+console.log(res);
